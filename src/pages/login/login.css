@@ -1,0 +1,88 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F2F2FF;
+    background-image: url('../../assets/bk.svg'); /* Replace with the correct path */
+    background-repeat:repeat-x;
+background-size: 80%;
+    background-position: center;
+  }
+
+  .signup-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Updated shadow for a smoother feel */
+    text-align: center;
+    width: 450px;
+    height: 600px;
+    z-index: 1;
+    position: relative;
+  }
+  .signup-button.google {
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    color: #6160DC;
+    padding: 0.8rem; /* Adjust padding */
+    font-size: 1rem;  /* Adjust font size */
+  }
+  
+  .signup-button.outlook {
+    background-color: #0078D4;
+    color: white;
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+  .or-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #888;
+    margin: 20px 0;
+    font-size: 0.9rem;
+  }
+  .signup-heading {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
+  .signup-subheading {
+    font-size: 13px;
+    font-weight: 400;
+    color: #888;
+  
+  
+    margin-bottom: 2rem;
+  
+  }
+  .signup-subheading2 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #888;
+  
+  
+    margin-bottom: 2rem;
+  
+  }
+        
+  .signup-title{
+    color: rgba(69, 69, 206, 0.825);
+
+    align-items: center;
+    justify-content: center;
+  }
+  .signup-icon-atmoic{
+    display: flex;
+    justify-self: start;
+     
+  }
+  .signuptitle{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: bolder;
+  }
