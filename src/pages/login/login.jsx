@@ -10,45 +10,66 @@ const Login = () => {
   return (
     <div className="signup-container">
       <div className="signup-card">
-        <Typography variant="h6" className="signup-title">
-          <SvgComponent/>
-        </Typography>
-
+<div style={{display:'flex',justifyContent:'flex-start'}}>
+          <SvgComponent />
+  
+          </div>
         <div  className="signuptitle">Sign up</div>
-        <div className="signup-subheading">
+
+        <div className="signupheading">
         You’re just a few details away to set up a culture of
-        <div className="signup-subheading-2">
+        </div>
+        <div className="signupsubheading">
         feedback and thriving environment
+
         </div>
-        </div>
-        
         <Button variant="outlined" className="signup-button google" fullWidth>
-          <img src={google} alt="Google logo" className="signup-icon" />
-          Sign up with Google
-        </Button>
+  <img src={google} alt="Google logo" className="signupicon" />
+  <div style={{ marginLeft: '75px' }}>Sign up with Google</div>
+</Button>
 
-        <Button variant="contained" className="signup-button outlook" fullWidth>
+
+        <Button variant="outlined" className="signup-button outlook" fullWidth>
           <img src={microsoft} alt="Outlook logo" className="signup-icon" />
-          Sign up with Outlook
+          <div style={{marginLeft:'75px'}}>   Sign up with Outlook </div>
         </Button>
+<div style={{marginLeft:'40px',marginRight:'40px',marginBottom:'20px'
+}}>
+        <Divider className="or">or</Divider>
+        </div>
+        <div style={{fontSize:'12px',display:'flex',justifyContent:'flex-start'}}> 
+        Work Email <div style={{color:'red',marginLeft:'5px'}}> * </div>
+        </div>
+        <TextField
+  variant="outlined"
+  placeholder="Work Email"
+  fullWidth
+  value="atomicsignals@gmail.com"
+  className="email"
 
-        <Divider className="or-divider">or</Divider>
+  InputProps={{
+    sx: {
+      height: '40px', 
+      padding: '5px',
 
-        <TextField 
-          variant="outlined" 
-          placeholder="Work Email" 
-          fullWidth 
-          value="atomicsignals@gmail.com" 
-          className="email-input" 
-        />
+      marginTop:'10px',
+      marginLeft:'2px',
+      color: '#484661',
+      fontWeight:'6500'
+    },
+  }}
+/>
 
-        <Button variant="contained" color="success" className="signup-button signup-submit" fullWidth>
+<div style={{marginTop:'15px'}}>
+        <Button variant="contained" sx={{backgroundColor:'#49C792',textTransform:'none',     marginLeft:'2px'}}  className="submit" fullWidth>
           Sign up
         </Button>
-
-        <Typography className="already-account">
-          Already have an account? <a href="/login" className="login-link">Log in</a>
-        </Typography>
+        </div>
+        <div style={{marginTop:'30px'}}>
+        <div className="already-account">
+          Already have an account? <a href="/Welcome" className="login-link">Log in</a>
+        </div>
+        </div>
       </div>
     </div>
   );

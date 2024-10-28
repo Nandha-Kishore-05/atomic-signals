@@ -1,4 +1,4 @@
-.signup-container {
+.welcome-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,18 +6,19 @@
     background-color: #F2F2FF;
     background-image: url('../../assets/bk.svg'); /* Replace with the correct path */
     background-repeat:repeat-x;
-background-size: 80%;
+background-size: 80% 20%;
+
     background-position: center;
   }
 
-  .signup-card {
+  .welcome-card {
     background-color: #fff;
-    padding: 2rem;
+    padding: 20px;
     border-radius: 15px;
   
     text-align: center;
-    width: 450px;
-    height: 550px;
+    width: 420px;
+    height: 470px;
 
     position: relative;
   }
@@ -85,7 +86,7 @@ margin-top: 13px;
   display: flex;
   justify-content: flex-start;
   
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   
   }
         
@@ -121,9 +122,10 @@ margin-top: 13px;
   .already-account{
     color: #71707E; 
   }
-  .login-link{
+  .welcome-login-link{
     color: black;
-    margin-left: 3px;
-    font-size: 14px;
-    font-weight: 600;
+   display: flex;
+   justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 500;
   }

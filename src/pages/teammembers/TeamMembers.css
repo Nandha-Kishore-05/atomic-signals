@@ -1,0 +1,115 @@
+/* Table Container */
+.table-container {
+    background-color: #ffffff;
+margin-top: 10px;
+    border-radius: 12px;
+}
+
+/* Table Background and Borders */
+.MuiTable-root {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Header Styling */
+.MuiTableHead-root .MuiTableCell-root {
+    font-weight: 600;
+    color: #4F4F4F;
+    background-color: #ffffff;
+    padding: 16px;
+    font-size: 14px;
+}
+
+/* Body Cell Styling */
+.MuiTableBody-root .MuiTableCell-root {
+    padding: 16px;
+    font-size: 14px;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+/* Row Hover Effect */
+.MuiTableRow-root:hover {
+    background-color: #f7f8fc; /* Subtle hover effect */
+}
+
+/* Name Cell Styling */
+.table-name-cell {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Signal Chip Styling */
+.signal-chip {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* Signal Colors */
+.signal-chip.green { background-color: #27ae60; }
+.signal-chip.yellow { background-color: #f1c40f; color: #333; }
+.signal-chip.orange { background-color: #e67e22; }
+.signal-chip.lightgreen { background-color: #2ecc71; }
+.signal-chip.red { background-color: #e74c3c; }
+
+/* Pagination Styling */
+.MuiTablePagination-root {
+    background-color: #ffffff;
+    padding: 8px 24px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* Performance Meter Container */
+.performance-meter {
+  position: relative;
+  width: 100px; /* Adjust size as needed */
+  height: 50px; /* Half of width to create a semi-circle */
+  overflow: hidden;
+}
+
+/* Semi-circle Background */
+.performance-meter .semi-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #e74c3c 0%,    /* Red for low performance */
+    #f39c12 25%,   /* Orange */
+    #f1c40f 50%,   /* Yellow */
+    #2ecc71 75%,   /* Light green */
+    #27ae60 100%   /* Green for high performance */
+  );
+  transform: rotate(-90deg); /* Start at bottom center */
+}
+
+/* Performance Fill Indicator */
+.performance-meter-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: white;
+  clip-path: inset(50% 50% 0 0);
+  transform: rotate(calc(var(--performance) * 1deg)); /* Dynamic fill based on performance */
+  transition: transform 0.3s ease-in-out;
+}
+
+  
+  /* Optionally, if you want to target only specific rows or cells, 
+  you can use the class name from the component or target based on index */
+  .table-container .MuiTableCell-root {
+    border-bottom: none;
+  }
