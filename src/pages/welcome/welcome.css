@@ -4,7 +4,7 @@
     align-items: center;
     height: 100vh;
     background-color: #F2F2FF;
-    background-image: url('../../assets/bk.svg'); /* Replace with the correct path */
+    background-image: url('../../assets/bk.svg');
     background-repeat:repeat-x;
 background-size: 80% 20%;
 
@@ -26,8 +26,8 @@ background-size: 80% 20%;
     background-color: #F8F8F8;
     border: 1px solid #F8F8F8;
 color: #484661;
-    padding: 5px; /* Adjust padding */
-    font-size: 15px;  /* Adjust font size */
+    padding: 5px; 
+    font-size: 15px;  
   display: flex;
 justify-content: flex-start;
 padding-left: 13px;
@@ -43,8 +43,8 @@ font-weight: 6500;
     background-color: #F8F8F8;
     border: 1px solid #F8F8F8;
     color: #484661;
-    padding: 5px; /* Adjust padding */
-    font-size: 15px;  /* Adjust font size */
+    padding: 5px; 
+    font-size: 15px;  
   display: flex;
 justify-content: flex-start;
 padding-left: 13px;

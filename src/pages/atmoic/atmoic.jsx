@@ -8,10 +8,10 @@ import CustomTable from '../teammembers/teammember';
 function Atomic() {
     return (
         <div style={{ display: 'flex', width: '100%' }}>
-            {/* Sidebar Section */}
+         
             <Sidebar />
 
-            {/* Main Content Section */}
+      
             <div style={{ flexGrow: 1, padding: '20px',backgroundColor:'#F0F0F0' }}>
             <TeamNavbar />
                 <CustomTable />
