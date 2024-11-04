@@ -17,8 +17,8 @@
     
 }
 .performance{
-    width: 807px;
-    height: 700px;
+    width: 750px;
+    height: 680px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #EBEBEB;
     border-radius: 8px;
@@ -28,8 +28,8 @@
    
 }
 .feedback{
-    width: 1077px;
-    height: 930px;
+    width: 997px;
+    height: 910px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #EBEBEB;
     border-radius: 8px;
@@ -64,7 +64,7 @@ font-weight: 800;
 font-size: 22px;
 }
 .performace-image{
-    margin-left: 250px;
+    margin-left: 180px;
     margin-top: 28px;
     transform: scale(1.2);
 }
@@ -75,7 +75,7 @@ font-size: 22px;
 border-radius: 4px;
 opacity: 1;
 margin-top: 40px;
-margin-left: 220px;
+margin-left: 160px;
 display: flex;
 flex-direction: row;
 gap: 10px;

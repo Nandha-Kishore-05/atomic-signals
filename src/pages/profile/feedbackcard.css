@@ -1,5 +1,5 @@
 .feedback-card {
-    width: 1020px;
+    width: 950px;
     height: 180px;
     border: 1px solid #E6E6E6E6;
   
@@ -99,7 +99,7 @@ opacity: 1;
   .response-button {
    
     padding: 15px;
-    width: 99%;
+    width: 100%;
     font-size: 0.9rem;
     font-weight: bold;
      color: #49C792;
